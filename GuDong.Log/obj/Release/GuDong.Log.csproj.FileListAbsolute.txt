@@ -1,0 +1,5 @@
+E:\GuDong\GuDong.Log\bin\Release\GuDong.Log.dll
+E:\GuDong\GuDong.Log\bin\Release\GuDong.Log.pdb
+E:\GuDong\GuDong.Log\obj\Release\GuDong.Log.csprojResolveAssemblyReference.cache
+E:\GuDong\GuDong.Log\obj\Release\GuDong.Log.dll
+E:\GuDong\GuDong.Log\obj\Release\GuDong.Log.pdb

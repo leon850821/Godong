@@ -1,0 +1,21 @@
+
+记录时间：2015-06-03 09:22:32,320 
+线程ID:[6] 
+日志级别：  ERROR 
+出错类：WebErroLog property: [(null)] - 
+错误描述：Url:http://192.168.1.8:804/  Controller:GuDong.Web.Controllers.BannerController  报错内容:在应用程序配置文件中找不到名为“GuDongContext”的连接字符串。
+ 
+
+记录时间：2015-06-03 09:22:32,362 
+线程ID:[6] 
+日志级别：  ERROR 
+出错类：WebErroLog property: [(null)] - 
+错误描述：Url:http://192.168.1.8:804/  Controller:GuDong.Web.Controllers.NewInfoController  报错内容:在应用程序配置文件中找不到名为“GuDongContext”的连接字符串。
+ 
+
+记录时间：2015-06-03 09:22:32,366 
+线程ID:[6] 
+日志级别：  ERROR 
+出错类：WebErroLog property: [(null)] - 
+错误描述：Url:http://192.168.1.8:804/  Controller:GuDong.Web.Controllers.HomeController  报错内容:执行处理程序“System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper”的子请求时出错。
+ 

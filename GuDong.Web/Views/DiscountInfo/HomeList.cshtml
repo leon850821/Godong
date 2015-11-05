@@ -1,0 +1,32 @@
+﻿@model IEnumerable<GuDong.Model.GuDong.DiscountInfo>
+
+
+<!-- 潜力店 -->
+<div class="index-stores layout">
+    <div class="stores-intro">
+        <span class="stores-tit">
+            <p class="bigger-tit">咕咚潜力店</p>
+            <p>咕咚精选潜力商家</p>
+            <p>凭咕咚会员身份可享受商家优惠</p>
+        </span>
+        <a href="#" class="all-stores-btn">全部商家 ></a>
+    </div>
+    <div class="stores-lists">
+        @{foreach (var t in Model)
+        {
+            <!-- 单个商家 -->
+                    <dl>
+                        <dt class="fl"><a href="#"><img src="@(string.IsNullOrEmpty(t.LogoUrl) ? "../images/CrowdFunDefaultImg.jpg" : t.LogoUrl)" alt=""></a></dt>
+                        <dd>
+                            <p class="store-tit">@t.Title</p>
+                            <p class="store-intro">@t.DiscountDesc</p>
+                            <p>开始时间: <b class="start-time">@t.StartDate.ToString("yyyy-MM-dd")</b></p>
+                            <p>结束时间: <b class="end-time">@t.EndDate.ToString("yyyy-MM-dd")</b></p>
+                            <a href="#" class="view-details-btn">查看详情</a>
+                        </dd>
+                    </dl>
+	        <!-- 单个商家 end -->
+        }}
+    </div>
+</div>
+<!-- 潜力店 end  -->

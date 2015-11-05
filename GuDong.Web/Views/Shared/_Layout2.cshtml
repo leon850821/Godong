@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>莱特网2</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-1.7.2.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/common.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/validate.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/reg-new.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/login_reg.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/JPlaceholder.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/layer/layer.js")"></script>
+    <link href="@Url.Content("~/Content/reset.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/common.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/login_reg.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/ModuleEdit.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Scripts/layer/skin/layer.css")" rel="stylesheet">
+</head>
+<body>
+    <!-- head -->
+    <div id="header" class="header-sub">
+        <div class="header layout">
+            <!-- logo -->
+            <div class="logo">
+                <a href="#"><img src="@Url.Content("~/images/logo.png")" alt=""></a>
+            </div>
+            @Html.Action("HomeHead", "UserBasicInfo")
+        </div>
+    </div>
+    <!-- head end -->
+
+    @RenderBody()
+
+    <!-- 底部 -->
+    <div id="bottom">
+        <div class="bottom-links">
+            <div class="layout">
+                <span>友情链接：</span>
+                <ul>
+                    <li><a href="#">莱特金融集团</a></li>
+                    <li><a href="#">莱特金融超市</a></li>
+                    <li><a href="#">莱特金融旗舰店</a></li>
+                    <li><a href="#">莱特贷款网</a></li>
+                    <li><a href="#">莱特理财网</a></li>
+                    <li><a href="#">莱特财富</a></li>
+                    <li><a href="#">莱特资信</a></li>
+                    <li><a href="#">莱特文化</a></li>
+                    <li><a href="#">莱特网络</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-copyright">
+            <div class="layout ta-c">
+                <a href="#">粤ICP备15013017号-1 </a><a href="#">goodjr.cn</a>  © 2015 东莞莱特金融投资集团股份有限公司 版权所有
+            </div>
+        </div>
+    </div>
+    <!-- 底部 end -->
+    @Scripts.Render("~/js/jquery", "~/js/art", "~/js/editor", "~/js/validate")
+    <script src="@Scripts.Url("~/Scripts/ModuleEdit/ModuleList.js")" type="text/javascript"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+

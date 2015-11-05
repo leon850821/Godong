@@ -1,0 +1,14 @@
+
+记录时间：2015-06-18 16:20:09,590 
+线程ID:[10] 
+日志级别：  ERROR 
+出错类：WebErroLog property: [(null)] - 
+错误描述：Url:http://localhost:804/CrowdFunDingInfo/List  Controller:GuDong.Web.Controllers.CrowdFunDingInfoController  报错内容:The layout page "~/Views/Shared/_Layout1.cshtml" could not be found at the following path: "~/Views/Shared/_Layout1.cshtml".
+ 
+
+记录时间：2015-06-18 18:00:12,856 
+线程ID:[7] 
+日志级别：  ERROR 
+出错类：WebErroLog property: [(null)] - 
+错误描述：Url:http://localhost:804/CrowdFunDingInfo/List  Controller:GuDong.Web.Controllers.CrowdFunDingInfoController  报错内容:e:\GuDong\GuDong.Web\Views\CrowdFunDingInfo\List.cshtml(89): error CS1928: “System.Web.Mvc.HtmlHelper<System.Collections.Generic.IEnumerable<GuDong.Model.GuDong.CrowdFunDingInfo>>”不包含“Pager”的定义，并且最佳扩展方法重载“Webdiyer.WebControls.Mvc.PagerHelper.Pager(System.Web.Mvc.HtmlHelper, Webdiyer.WebControls.Mvc.IPagedList, Webdiyer.WebControls.Mvc.PagerOptions)”的某些参数无效
+ 

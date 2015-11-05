@@ -1,0 +1,21 @@
+
+记录时间：2015-06-19 09:13:32,961 
+线程ID:[6] 
+日志级别：  ERROR 
+出错类：WebErroLog property: [(null)] - 
+错误描述：Url:http://localhost:804/CrowdFunDingInfo/List  Controller:GuDong.Web.Controllers.CrowdFunDingInfoController  报错内容:e:\GuDong\GuDong.Web\Views\CrowdFunDingInfo\List.cshtml(89): error CS1501: “Pager”方法没有任何重载采用 0 个参数
+ 
+
+记录时间：2015-06-19 13:58:41,200 
+线程ID:[26] 
+日志级别：  ERROR 
+出错类：WebErroLog property: [(null)] - 
+错误描述：Url:http://localhost:804/CrowdFunDingInfo/List  Controller:GuDong.Web.Controllers.CrowdFunDingInfoController  报错内容:e:\GuDong\GuDong.Web\Views\CrowdFunDingInfo\List.cshtml(89): error CS1501: “Pager”方法没有任何重载采用 9 个参数
+ 
+
+记录时间：2015-06-19 14:49:17,912 
+线程ID:[6] 
+日志级别：  ERROR 
+出错类：WebErroLog property: [(null)] - 
+错误描述：Url:http://localhost:804/CrowdFunDingInfo/List?Type=Preheat  Controller:GuDong.Web.Controllers.CrowdInvestmentController  报错内容:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+ 

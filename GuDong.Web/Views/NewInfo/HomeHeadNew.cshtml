@@ -1,0 +1,10 @@
+﻿@model IEnumerable<GuDong.Model.GuDong.NewInfo>
+<div class="annouces-list fl">
+    <span>咕咚公告：</span>
+    <ul>
+        @{foreach (var t in Model)
+        {
+            <li><a href="#">@t.Title</a></li>
+        }}
+    </ul>
+</div>

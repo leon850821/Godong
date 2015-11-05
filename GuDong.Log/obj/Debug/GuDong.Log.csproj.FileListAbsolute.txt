@@ -1,0 +1,20 @@
+E:\GuDong\GuDong.Log\bin\Debug\GuDong.Log.dll
+E:\GuDong\GuDong.Log\bin\Debug\GuDong.Log.pdb
+E:\GuDong\GuDong.Log\obj\Debug\GuDong.Log.dll
+E:\GuDong\GuDong.Log\obj\Debug\GuDong.Log.pdb
+E:\GuDong\GuDong.Log\bin\Debug\log4net.dll
+E:\GuDong\GuDong.Log\bin\Debug\log4net.xml
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Log\bin\Debug\GuDong.Log.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Log\bin\Debug\GuDong.Log.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Log\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Log\bin\Debug\log4net.xml
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Log\obj\Debug\GuDong.Log.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Log\obj\Debug\GuDong.Log.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Log\obj\Debug\GuDong.Log.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Log\bin\Debug\GuDong.Log.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Log\bin\Debug\GuDong.Log.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Log\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Log\bin\Debug\log4net.xml
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Log\obj\Debug\GuDong.Log.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Log\obj\Debug\GuDong.Log.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Log\obj\Debug\GuDong.Log.pdb

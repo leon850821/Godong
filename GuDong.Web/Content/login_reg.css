@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+.login-main {
+	padding: 30px 0 50px;
+}
+.login-main .layout {
+	position: relative;
+	min-height: 640px;
+}
+.login-panel {
+	position: absolute;	
+	*width: 282px;
+	top: 20px;
+	right: 0;
+	padding: 30px;
+	border: 1px #eee solid;
+	box-shadow: 0 0 4px rgba(0,0,0,.1);
+	background: #fff;
+}
+.panel-tit {
+	font-size: 22px;
+	margin-bottom: 24px;
+	color: #b1b1b1;
+	position: relative;
+}
+.panel-tit .fr {
+	*float: none;
+}
+.panel-tit b {
+	color: #14b2e2;
+	font-weight: 100;
+}
+.login-reg-link {
+	font-size: 14px;
+	color: #14b2e2;
+}
+.input-items li {
+	position: relative;
+	padding-bottom: 22px;
+	*overflow: hidden;
+}
+.input-items .input-tips {
+	position: absolute;
+	color: #ccc;
+	bottom: 6px;
+}
+.input-items .warn-text {
+	color: #f85757;
+}
+.input-box {
+	width: 250px;
+	padding: 0 15px;
+	border: 1px #ddd solid;
+	height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+	transition: all .2s ease;
+	-webkit-transition: all .2s ease;
+}
+input.hasicon {
+	padding-left: 45px;
+	width: 220px;
+}
+.input-box:focus {
+	border-color: #14b2e2;
+}
+.warn-box {
+	border-color: #f85757;
+}
+.sex-box {
+	font-size: 14px;
+	color: #888;
+	margin-right: 10px;
+}
+.sex-box input {
+	vertical-align: -1px;
+	margin-right: 5px;
+}
+.input-box::-webkit-input-placeholder {
+	font-size: 16px;
+}
+.input-icons {
+	position: absolute;
+	z-index: 100;
+	left: 10px;
+	top: 9px;
+	background: url(../images/login-icons.png) no-repeat;
+	width: 28px;
+	height: 28px;
+}
+.i-i-user {
+	background-position: 0 0;
+}
+.i-i-password {
+	background-position: 0 -28px;
+}
+.i-i-phone {
+	background-position: 0 -56px;
+}
+.abs-vcode {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	height: 35px;
+	line-height: 35px;
+}
+.abs-vcode a {	
+	color: #14b2e2;
+	font-size: 14px;
+	margin-right: 10px;
+}
+.msg-box {
+	height: 12px;
+	line-height: 12px;
+	margin-bottom: 15px;
+	text-align: center;
+	color: #f85757;
+}
+.input-submit-btn {
+	display: block;
+	background: #14b2e2;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 10px;
+	padding: 12px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all .2s ease;
+	-webkit-transition: all .2s ease;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+	border: none;
+	cursor: pointer;
+}
+.input-submit-btn:hover {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	text-decoration: none;
+	background: #0796bf;
+}
+a.btn-sub-link {
+	color: #999;
+}
+a.btn-sub-link:hover {
+	color: #14b2e2;
+}
+.btn-sub-link b {
+	color: #14b2e2;
+}
+.agreement-check {
+	vertical-align: -1px;
+}
+.agreement-note {
+	display: inline-block;
+	font-size: 14px;
+}
+.agreement-note a {
+	color: #14b2e2;
+	text-decoration: none;
+}
+
+
+/*找回密码*/
+.forget-pwd {
+	text-align: center;
+}
+.center-box {
+	margin-top: 30px;
+	position: static;
+	display: inline-block;
+}
+.input-items li {
+	text-align: left;
+}
+.forget-types {
+	font-size: 0;
+	margin-bottom: 20px;
+}
+.forget-type {
+	display: inline-block;
+	width: 50%;
+	font-size: 14px;
+	color: #888;
+	padding: 10px 0;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 2px;
+}
+.forget-type.current {
+	background: #14b2e2;
+	color: #fff;
+}
+/*找回密码 end*/

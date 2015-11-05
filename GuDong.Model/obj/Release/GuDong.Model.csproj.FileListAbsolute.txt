@@ -1,0 +1,7 @@
+E:\GuDong\GuDong.Model\bin\Release\GuDong.Model.dll
+E:\GuDong\GuDong.Model\bin\Release\GuDong.Model.pdb
+E:\GuDong\GuDong.Model\bin\Release\GuDong.Enum.dll
+E:\GuDong\GuDong.Model\bin\Release\GuDong.Enum.pdb
+E:\GuDong\GuDong.Model\obj\Release\GuDong.Model.csprojResolveAssemblyReference.cache
+E:\GuDong\GuDong.Model\obj\Release\GuDong.Model.dll
+E:\GuDong\GuDong.Model\obj\Release\GuDong.Model.pdb

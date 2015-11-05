@@ -1,0 +1,114 @@
+﻿@using GuDong.Enum.CrowdFunDingInfo;
+@using Webdiyer.WebControls.Mvc;
+@model IEnumerable<GuDong.Model.GuDong.CrowdFunDingInfo>
+
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="@Url.Content("~/Content/list.css")" rel="stylesheet">
+<link href="@Url.Content("~/Content/aside.css")" rel="stylesheet">
+<!-- 行业 -->
+@Html.Action("InvolveIndustry", "IndustryInfo")
+<!-- 行业 end -->
+<!-- 状态tab -->
+<div class="stats-tab layout">
+    <span class="stat-tit">
+        众筹进行时
+    </span>
+    <ul>
+        <li class="@((CrowdState)ViewBag.CrowdState == CrowdState.Crowding ? "current" : "")"><a href="@Url.Action("List", "CrowdFunDingInfo", new { Type = CrowdState.Crowding })">最新上线</a></li>
+        <li class="@((CrowdState)ViewBag.CrowdState == CrowdState.Preheat ? "current" : "")"><a href="@Url.Action("List", "CrowdFunDingInfo", new { Type = CrowdState.Preheat })">预热项目</a></li>
+        <li class="@((CrowdState)ViewBag.CrowdState == CrowdState.CrowdSucces ? "current" : "")"><a href="@Url.Action("List", "CrowdFunDingInfo", new { Type = CrowdState.CrowdSucces })">成功项目</a></li>
+    </ul>
+</div>
+<!-- 状态tab end -->
+<!-- 列表 -->
+<div class="list-main layout">
+    <!-- 左侧 -->
+    <div class="list-left">
+        @{foreach (var t in Model)
+        {
+            <!-- 单项 -->
+            <dl>
+                <!-- 项目图片 -->
+                <dt>
+                    <span class="list-img">
+                        <a href="#"><img src="@(string.IsNullOrEmpty(t.LogoUrl)? "../images/CrowdFunDefaultImg.jpg" : t.LogoUrl)" alt=""></a>
+                        <span class="list-tag">
+                            @t.MerchantBasicInfo.IndustryInfo.IndustryName
+                        </span>
+                    </span>
+                </dt>
+                <!-- 项目图片 end -->
+                <dd>
+                    <!-- 项目详情 -->
+                    <p class="list-title nowrap">
+                        <a href="#">@t.Title</a>
+                    </p>
+                    <p class="list-details">
+                        @t.CrowdDesc
+                    </p>
+                    <!-- 进度 -->
+                    <div class="item-progress">
+                        <span class="progress-bg">
+                            <i class="progress-current" style="width: @(((Convert.ToDecimal(t.InvestmentShare) / Convert.ToDecimal(t.CrowdShare)) * 100).ToString("0"))%;"></i>
+                        </span>
+                        <span class="progress-pointer" style="left: @(((Convert.ToDecimal(t.InvestmentShare) / Convert.ToDecimal(t.CrowdShare)) * 100).ToString("0"))%;">
+                            @(GuDong.Tool.EnumHelper.GetDescriptionFromEnumValue(t.CrowdState))
+                        </span>
+                    </div>
+                    <!-- 进度 end -->
+                    <!-- 数据 -->
+                    <div class="list-counter">
+                        <span class="count-item">
+                            <i class="counter-icon counter-icon-1">
+
+                            </i>
+                            <p class="counter-text counter-text1">￥@((t.InvestmentShare * t.LowerUnit).ToString("0,0"))</p>
+                            <p>已筹集金额</p>
+                        </span>
+                        <span class="count-item">
+                            <i class="counter-icon counter-icon-2">
+
+                            </i>
+                            <p class="counter-text counter-text2">@t.AttentionNum</p>
+                            <p>关注人数</p>
+                        </span>
+                        <span class="count-item">
+                            <p class="counter-text counter-text3">@(((Convert.ToDecimal(t.InvestmentShare) / Convert.ToDecimal(t.CrowdShare)) * 100).ToString("0"))%</p>
+                            <p>项目进度</p>
+                        </span>
+                    </div>
+                    <!-- 数据 end -->
+                    <!-- 项目详情 end -->
+                </dd>
+            </dl>
+            <!-- 单项 end -->
+        }}
+        @Html.Pager((int)ViewBag.Count, 6, (int)ViewBag.Page, new PagerOptions { PageIndexParameterName = "Page", CssClass = "list-pager" })
+    </div>
+    <!-- 左侧 end -->
+    <!-- 右侧 杂项 -->
+    <div class="list-right">
+        <!-- 购买用户列表 -->
+        @Html.Action("GetDateDescTop5", "CrowdInvestment")
+        <!-- 购买用户列表 end -->
+        <p class="right-item-tit">
+            风险提示
+        </p>
+        <div class="warnbox">
+            <ul>
+                <li>1. 众筹项目存在一定风险，如项目筹款成功但发放回报出现问题，您可申请退款退回支持金额（一次性支付）中的尾款部分，而订金部分由于已被项目组织者使用，退还订金事宜需要您和项目组织者自行协商，咕咚没有帮您追讨订金的义务。</li>
+                <li>2. 请在下单后15分钟内付款哦，否则您的订单会被自动关闭。</li>
+                <li>3. 本页面统计的项目总支持人数和总支持金额存在一定的延迟，以单个回报详情为准。</li>
+            </ul>
+        </div>
+    </div>
+    <!-- 右侧 杂项 end -->
+</div>
+<!-- 列表 end -->
+<script>
+    $('.navi a').removeClass("current");
+    $("#home_zcjxs").addClass("current");
+</script>

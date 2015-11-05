@@ -1,0 +1,15 @@
+E:\GuDong\GuDong.Dal\bin\Release\GuDong.Dal.dll
+E:\GuDong\GuDong.Dal\bin\Release\GuDong.Dal.pdb
+E:\GuDong\GuDong.Dal\bin\Release\EntityFramework.dll
+E:\GuDong\GuDong.Dal\bin\Release\GuDong.EF.dll
+E:\GuDong\GuDong.Dal\bin\Release\GuDong.Enum.dll
+E:\GuDong\GuDong.Dal\bin\Release\GuDong.IDal.dll
+E:\GuDong\GuDong.Dal\bin\Release\GuDong.Model.dll
+E:\GuDong\GuDong.Dal\bin\Release\GuDong.EF.pdb
+E:\GuDong\GuDong.Dal\bin\Release\GuDong.Enum.pdb
+E:\GuDong\GuDong.Dal\bin\Release\GuDong.IDal.pdb
+E:\GuDong\GuDong.Dal\bin\Release\GuDong.Model.pdb
+E:\GuDong\GuDong.Dal\bin\Release\EntityFramework.xml
+E:\GuDong\GuDong.Dal\obj\Release\GuDong.Dal.csprojResolveAssemblyReference.cache
+E:\GuDong\GuDong.Dal\obj\Release\GuDong.Dal.dll
+E:\GuDong\GuDong.Dal\obj\Release\GuDong.Dal.pdb

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>
+  <unity>
+    <typeAliases>
+      <!--Log组件Start-->
+      <typeAlias alias="ILogHelper" type="GuDong.Log.ILogHelper,GuDong.Log" />
+      <typeAlias alias="LogHelper" type="GuDong.Log.LogHelper,GuDong.Log" />
+      <!--Log组件End-->
+      
+      <!--接口别名Start-->
+      <typeAlias alias="IBanner" type="GuDong.IDal.IBanner,GuDong.IDal" />
+      <typeAlias alias="ICrowdBonusList" type="GuDong.IDal.ICrowdBonusList,GuDong.IDal" />
+      <typeAlias alias="ICrowdFunDingInfo" type="GuDong.IDal.ICrowdFunDingInfo,GuDong.IDal" />
+      <typeAlias alias="IDiscountInfo" type="GuDong.IDal.IDiscountInfo,GuDong.IDal" />
+      <typeAlias alias="IIndustryInfo" type="GuDong.IDal.IIndustryInfo,GuDong.IDal" />
+      <typeAlias alias="IUserBasicInfo" type="GuDong.IDal.IUserBasicInfo,GuDong.IDal" />
+      <typeAlias alias="INewInfo" type="GuDong.IDal.INewInfo,GuDong.IDal" />
+      <typeAlias alias="IMerchantBasicInfo" type="GuDong.IDal.IMerchantBasicInfo,GuDong.IDal" />
+      <typeAlias alias="ICodeRecord" type="GuDong.IDal.ICodeRecord,GuDong.IDal" />
+      <typeAlias alias="IMerchantSettledApply" type="GuDong.IDal.IMerchantSettledApply,GuDong.IDal" />
+      <typeAlias alias="ICrowdInvestment" type="GuDong.IDal.ICrowdInvestment,GuDong.IDal" />
+      <typeAlias alias="IModuleList" type="GuDong.IDal.IModuleList,GuDong.IDal" />
+      <typeAlias alias="IMainModule" type="GuDong.IDal.IMainModule,GuDong.IDal" />
+      <!--接口别名End-->
+      
+      <!--实现类Start-->
+      <typeAlias alias="BannerDal" type="GuDong.Dal.BannerDal,GuDong.Dal" />
+      <typeAlias alias="CrowdBonusListDal" type="GuDong.Dal.CrowdBonusListDal,GuDong.Dal" />
+      <typeAlias alias="CrowdFunDingInfoDal" type="GuDong.Dal.CrowdFunDingInfoDal,GuDong.Dal" />
+      <typeAlias alias="DiscountInfoDal" type="GuDong.Dal.DiscountInfoDal,GuDong.Dal" />
+      <typeAlias alias="IndustryInfoDal" type="GuDong.Dal.IndustryInfoDal,GuDong.Dal" />
+      <typeAlias alias="UserBasicInfoDal" type="GuDong.Dal.UserBasicInfoDal,GuDong.Dal" />
+      <typeAlias alias="NewInfoDal" type="GuDong.Dal.NewInfoDal,GuDong.Dal" />
+      <typeAlias alias="MerchantBasicInfoDal" type="GuDong.Dal.MerchantBasicInfoDal,GuDong.Dal" />
+      <typeAlias alias="CodeRecordDal" type="GuDong.Dal.CodeRecordDal,GuDong.Dal" />
+      <typeAlias alias="MerchantSettledApplyDal" type="GuDong.Dal.MerchantSettledApplyDal,GuDong.Dal" />
+      <typeAlias alias="CrowdInvestmentDal" type="GuDong.Dal.CrowdInvestmentDal,GuDong.Dal" />
+      <typeAlias alias="ModuleListDal" type="GuDong.Dal.ModuleListDal,GuDong.Dal" />
+      <typeAlias alias="MainModuleDal" type="GuDong.Dal.MainModuleDal,GuDong.Dal" />
+      <!--实现类End-->
+    </typeAliases>
+    <containers>
+      <container name="default">
+        <!--接口默认注入-->
+        <types>
+          <!--Log组件Start-->
+          <type type="ILogHelper" mapTo="LogHelper">
+            <lifetime type="singleton" />
+          </type>
+          <!--Log组件End-->
+          <type type="IBanner" mapTo="BannerDal" />
+          <type type="ICrowdBonusList" mapTo="CrowdBonusListDal" />
+          <type type="ICrowdFunDingInfo" mapTo="CrowdFunDingInfoDal" />
+          <type type="IDiscountInfo" mapTo="DiscountInfoDal" />
+          <type type="IIndustryInfo" mapTo="IndustryInfoDal" />
+          <type type="IUserBasicInfo" mapTo="UserBasicInfoDal" />
+          <type type="INewInfo" mapTo="NewInfoDal" />
+          <type type="ICodeRecord" mapTo="CodeRecordDal" />
+          <type type="IMerchantSettledApply" mapTo="MerchantSettledApplyDal" />
+          <type type="ICrowdInvestment" mapTo="CrowdInvestmentDal" />
+          <type type="IModuleList" mapTo="ModuleListDal" />
+          <type type="IMainModule" mapTo="MainModuleDal" />
+        </types>
+      </container>
+    </containers>
+  </unity>
+</configuration>

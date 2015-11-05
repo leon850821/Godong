@@ -1,0 +1,67 @@
+E:\GuDong\GuDong.Dal\bin\Debug\GuDong.Dal.dll
+E:\GuDong\GuDong.Dal\bin\Debug\GuDong.Dal.pdb
+E:\GuDong\GuDong.Dal\obj\Debug\GuDong.Dal.dll
+E:\GuDong\GuDong.Dal\obj\Debug\GuDong.Dal.pdb
+E:\GuDong\GuDong.Dal\obj\Debug\GuDong.Dal.csprojResolveAssemblyReference.cache
+E:\GuDong\GuDong.Dal\bin\Debug\EntityFramework.dll
+E:\GuDong\GuDong.Dal\bin\Debug\GuDong.EF.dll
+E:\GuDong\GuDong.Dal\bin\Debug\GuDong.Enum.dll
+E:\GuDong\GuDong.Dal\bin\Debug\GuDong.IDal.dll
+E:\GuDong\GuDong.Dal\bin\Debug\GuDong.Model.dll
+E:\GuDong\GuDong.Dal\bin\Debug\GuDong.EF.pdb
+E:\GuDong\GuDong.Dal\bin\Debug\GuDong.Enum.pdb
+E:\GuDong\GuDong.Dal\bin\Debug\GuDong.IDal.pdb
+E:\GuDong\GuDong.Dal\bin\Debug\GuDong.Model.pdb
+E:\GuDong\GuDong.Dal\bin\Debug\EntityFramework.xml
+E:\GuDong\GuDong.Dal\bin\Debug\GuDong.Tool.dll
+E:\GuDong\GuDong.Dal\bin\Debug\GuDong.Tool.pdb
+E:\GuDong\GuDong.Dal\bin\Debug\GuDong.Log.dll
+E:\GuDong\GuDong.Dal\bin\Debug\log4net.dll
+E:\GuDong\GuDong.Dal\bin\Debug\GuDong.Log.pdb
+E:\GuDong\GuDong.Dal\bin\Debug\log4net.xml
+E:\GuDong\GuDong.Dal\bin\Debug\Microsoft.Practices.Unity.dll
+E:\GuDong\GuDong.Dal\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\GuDong.Dal.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\GuDong.Dal.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\GuDong.EF.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\GuDong.Enum.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\GuDong.IDal.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\GuDong.Log.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\GuDong.Model.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\GuDong.Tool.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\GuDong.EF.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\GuDong.Enum.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\GuDong.IDal.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\GuDong.Log.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\GuDong.Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\GuDong.Tool.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\bin\Debug\log4net.xml
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\obj\Debug\GuDong.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\obj\Debug\GuDong.Dal.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Dal\obj\Debug\GuDong.Dal.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\GuDong.Dal.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\GuDong.Dal.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\GuDong.EF.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\GuDong.Enum.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\GuDong.IDal.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\GuDong.Log.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\GuDong.Model.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\GuDong.Tool.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\GuDong.EF.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\GuDong.Enum.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\GuDong.IDal.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\GuDong.Log.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\GuDong.Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\GuDong.Tool.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\bin\Debug\log4net.xml
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\obj\Debug\GuDong.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\obj\Debug\GuDong.Dal.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Dal\obj\Debug\GuDong.Dal.pdb

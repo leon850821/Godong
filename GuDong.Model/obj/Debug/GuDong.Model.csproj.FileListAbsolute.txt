@@ -1,0 +1,21 @@
+E:\GuDong\GuDong.Model\obj\Debug\GuDong.Model.csprojResolveAssemblyReference.cache
+E:\GuDong\GuDong.Model\bin\Debug\GuDong.Model.dll
+E:\GuDong\GuDong.Model\bin\Debug\GuDong.Model.pdb
+E:\GuDong\GuDong.Model\bin\Debug\GuDong.Enum.dll
+E:\GuDong\GuDong.Model\bin\Debug\GuDong.Enum.pdb
+E:\GuDong\GuDong.Model\obj\Debug\GuDong.Model.dll
+E:\GuDong\GuDong.Model\obj\Debug\GuDong.Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Model\bin\Debug\GuDong.Model.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Model\bin\Debug\GuDong.Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Model\bin\Debug\GuDong.Enum.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Model\bin\Debug\GuDong.Enum.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Model\obj\Debug\GuDong.Model.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Model\obj\Debug\GuDong.Model.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Model\obj\Debug\GuDong.Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Model\bin\Debug\GuDong.Model.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Model\bin\Debug\GuDong.Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Model\bin\Debug\GuDong.Enum.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Model\bin\Debug\GuDong.Enum.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Model\obj\Debug\GuDong.Model.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Model\obj\Debug\GuDong.Model.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Model\obj\Debug\GuDong.Model.pdb

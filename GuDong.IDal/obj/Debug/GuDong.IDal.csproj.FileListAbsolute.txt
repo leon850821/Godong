@@ -1,0 +1,27 @@
+E:\GuDong\GuDong.IDal\bin\Debug\GuDong.IDal.dll
+E:\GuDong\GuDong.IDal\bin\Debug\GuDong.IDal.pdb
+E:\GuDong\GuDong.IDal\obj\Debug\GuDong.IDal.dll
+E:\GuDong\GuDong.IDal\obj\Debug\GuDong.IDal.pdb
+E:\GuDong\GuDong.IDal\obj\Debug\GuDong.IDal.csprojResolveAssemblyReference.cache
+E:\GuDong\GuDong.IDal\bin\Debug\GuDong.Enum.dll
+E:\GuDong\GuDong.IDal\bin\Debug\GuDong.Enum.pdb
+E:\GuDong\GuDong.IDal\bin\Debug\GuDong.Model.dll
+E:\GuDong\GuDong.IDal\bin\Debug\GuDong.Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.IDal\bin\Debug\GuDong.IDal.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.IDal\bin\Debug\GuDong.IDal.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.IDal\bin\Debug\GuDong.Enum.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.IDal\bin\Debug\GuDong.Model.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.IDal\bin\Debug\GuDong.Enum.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.IDal\bin\Debug\GuDong.Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.IDal\obj\Debug\GuDong.IDal.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.IDal\obj\Debug\GuDong.IDal.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.IDal\obj\Debug\GuDong.IDal.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.IDal\bin\Debug\GuDong.IDal.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.IDal\bin\Debug\GuDong.IDal.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.IDal\bin\Debug\GuDong.Enum.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.IDal\bin\Debug\GuDong.Model.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.IDal\bin\Debug\GuDong.Enum.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.IDal\bin\Debug\GuDong.Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.IDal\obj\Debug\GuDong.IDal.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.IDal\obj\Debug\GuDong.IDal.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.IDal\obj\Debug\GuDong.IDal.pdb

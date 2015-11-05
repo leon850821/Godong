@@ -1,0 +1,14 @@
+E:\GuDong\GuDong.Enum\bin\Debug\GuDong.Enum.dll
+E:\GuDong\GuDong.Enum\bin\Debug\GuDong.Enum.pdb
+E:\GuDong\GuDong.Enum\obj\Debug\GuDong.Enum.dll
+E:\GuDong\GuDong.Enum\obj\Debug\GuDong.Enum.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Enum\bin\Debug\GuDong.Enum.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Enum\bin\Debug\GuDong.Enum.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Enum\obj\Debug\GuDong.Enum.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Enum\obj\Debug\GuDong.Enum.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Enum\obj\Debug\GuDong.Enum.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Enum\bin\Debug\GuDong.Enum.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Enum\bin\Debug\GuDong.Enum.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Enum\obj\Debug\GuDong.Enum.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Enum\obj\Debug\GuDong.Enum.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Enum\obj\Debug\GuDong.Enum.pdb

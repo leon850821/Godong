@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+  </configSections>
+  <unity>
+    <!--<alias alias="T_ActionInfoDal2" type="GoodJRv2.Dal.GoodMall.T_ActionInfoDal2,GoodJRv2.Dal" />-->
+    <containers>
+      <!--Mvc控制器注入-->
+      <container name="default">
+        <!--<register type="GoodJRv2.IDal.GoodMall.IT_ActionInfo,GoodJRv2.IDal" mapTo="GoodJRv2.Dal.GoodMall.T_ActionInfoDal,GoodJRv2.Dal" />-->
+        <!--<register type="GoodJRv2.DemoWeb.Controllers.HomeController,GoodJRv2.DemoWeb">
+          <constructor>
+            <param name="dal" dependencyType="T_ActionInfoDal2" />
+          </constructor>
+        </register>-->
+        
+      </container>
+    </containers>
+  </unity>
+</configuration>

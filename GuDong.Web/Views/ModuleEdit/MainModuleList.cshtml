@@ -1,0 +1,74 @@
+﻿@using Webdiyer.WebControls.Mvc;
+@model IEnumerable<GuDong.Model.GuDong.MainModule>
+
+<link href="@Url.Content("~/Content/list.css")" rel="stylesheet">
+
+    @{
+        ViewBag.Title = "主模块信息列表";
+        Layout = "~/Views/Shared/_Layout2.cshtml";
+    }
+    @*<hr class="br_ty1" />*@
+
+    <div class="me-content-box ">
+        <div class="me-content-box-header">
+            <span>广告信息数据列表</span>
+            <div class="clearfix"></div>
+        </div>
+        <div class="me-content-box-content">
+            <div id="table-search">
+                <div class="search-box">
+                    <label>模块名称：</label>
+                    <input class="input-text search-text1" type="text" id="txtCode" />
+                    <input class="me-button" type="button" value="开始检索" onclick="onSearchGo();" />
+                    <input class="me-button" type="button" value="清空检索" onclick="onSearchClear();" />
+                    <span class="color-red f14 margin-left-10" id="searchTips"></span>
+                    <input class="me-button" type="button" value="新增" onclick="GotoHref('/ModuleEdit/MainModuleListAdd')" />
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="me-main-content">
+                <table id="table-thead">
+                    <thead>
+                        <tr>
+                            <th class="per20">主模块名称</th>
+                            <th class="per15">controller</th>
+                            <th class="per15">编辑controller</th>
+                            <th>&nbsp;</th>
+                        </tr>
+                    </thead>
+                </table>
+
+                <div id="table-tbody">
+                    <table>
+                        <tbody id="dataShowArea">
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="per20">
+                                        <p class="color-orangered"><em>@item.ModuleName</em></p>
+                                    </td>
+                                    <td class="per15">@item.Controller</td>
+                                    <td class="per15"> @item.EditController</td>
+                                    <td class="per10">
+                                        <a class="color-green" href="@Url.Action("MainModuleListAdd", "ModuleEdit", new { id = @item.Id })"><img src="~/Images/icons/editor.png" /> 编辑单笔</a>
+                                    </td>
+                                    <td class="per10">
+                                        <a class="color-red" href="javascript:void(0);" onclick="dataDelete('@item.Id','ModuleEdit','DeleteMainModuleList');"><img src="~/Images/icons/delete.png" /> 删除</a>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        @Html.Pager((int)ViewBag.Count, 10, (int)ViewBag.Page, new PagerOptions { PageIndexParameterName = "Page", CssClass = "list-pager" })
+
+    </div>

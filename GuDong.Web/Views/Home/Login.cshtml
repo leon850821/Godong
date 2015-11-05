@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<!-- login -->
+<div class="login-main">
+    <div class="layout clearfix">
+        <!-- 广告 -->
+        <div class="reg-ad">
+            <a href="#"><img src="../images/reg-ad.jpg" alt=""></a>
+        </div>
+        <!-- 广告 end -->
+        <!-- 登录框 -->
+         @using (Html.BeginForm("LoginVal", "UserBasicInfo"))
+        {
+            <div class="login-panel">
+                <div class="panel-tit">
+                    登录<b>咕咚网</b>
+                    <span class="fr">
+                        <a href="@Url.Action("Register","Home")" class="login-reg-link">免费注册</a>
+                    </span>
+                </div>
+                <ul class="input-items">
+                    <!-- 用户名框 -->
+                    <li>
+                        <i class="input-icons i-i-user"></i>
+                        <input type="text" name="UserName" class="input-box user-name hasicon" placeholder="用户名或手机号码">
+                        <p class="input-tips warn-text"></p>
+                    </li>
+                    <!-- 用户名框 end -->
+                    <!-- 密码框 -->
+                    <li>
+                        <i class="input-icons i-i-password"></i>
+                        <input type="password" name="Pwd" class="input-box user-password hasicon" placeholder="请输入密码">
+                        <p class="input-tips warn-text"></p>
+                    </li>
+                    <!-- 密码框 end -->
+                    <!-- 验证码框 -->
+                    <li>
+                        <input type="text" name="yzCode" class="input-box user-vcode" placeholder="请输入验证码">
+                        <img src="@Url.Action("ValidateCode", "Home", new { temp=DateTime.Now.Ticks})" alt="" class="abs-vcode"
+                             onclick="$(this).attr('src', '@Url.Action("ValidateCode", "Home")?r=' + Math.random()); $('.user-vcode').val('');">
+                        <p class="input-tips warn-text"></p>
+                    </li>
+                    <!-- 验证码框 end -->
+                </ul>
+                <span class="input-submit">
+                    <div class="msg-box">@TempData["msg"]</div>
+                    <a href="javascript:void(0);" class="input-submit-btn login-btn">登&emsp;&nbsp;录</a>
+                    <p class="clearfix"><a href="#" class="fr btn-sub-link">忘记密码？</a></p>
+                </span>
+            </div>
+        }
+        <!-- 登录框 end -->
+    </div>
+</div>
+<!-- login end -->

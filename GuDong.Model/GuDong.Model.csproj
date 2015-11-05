@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6B23AA67-23FD-48B5-A0BD-2F0782E25A4F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GuDong.Model</RootNamespace>
+    <AssemblyName>GuDong.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GoodJr\B_UserBankInfo.cs" />
+    <Compile Include="GoodJr\B_UserBankInfoLog.cs" />
+    <Compile Include="GoodJr\B_UserBasicInfo.cs" />
+    <Compile Include="GuDong\AccountRechare.cs" />
+    <Compile Include="GuDong\Banner.cs" />
+    <Compile Include="GuDong\CodeRecord.cs" />
+    <Compile Include="GuDong\CrowdBonusList.cs" />
+    <Compile Include="GuDong\CrowdBookInfo.cs" />
+    <Compile Include="GuDong\CrowdFinanceReport.cs" />
+    <Compile Include="GuDong\CrowdFinanceReportDetail.cs" />
+    <Compile Include="GuDong\CrowdFunDingInfo.cs" />
+    <Compile Include="GuDong\CrowdInvestment.cs" />
+    <Compile Include="GuDong\DiscountInfo.cs" />
+    <Compile Include="GuDong\FundAccountInfo.cs" />
+    <Compile Include="GuDong\IndustryInfo.cs" />
+    <Compile Include="GuDong\MainModule.cs" />
+    <Compile Include="GuDong\MerchantBasicInfo.cs" />
+    <Compile Include="GuDong\MerchantSettledApply.cs" />
+    <Compile Include="GuDong\ModuleList.cs" />
+    <Compile Include="GuDong\MoneyHistory.cs" />
+    <Compile Include="GuDong\NewInfo.cs" />
+    <Compile Include="GuDong\PublicEnum.cs" />
+    <Compile Include="GuDong\WithdrewFund.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GuDong.Enum\GuDong.Enum.csproj">
+      <Project>{3b6f6b0c-5d18-46d1-9d07-8ca55663caf0}</Project>
+      <Name>GuDong.Enum</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

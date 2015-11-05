@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>莱特网1</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-1.7.2.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/common.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/validate.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/JPlaceholder.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/index.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/layer/layer.js")"></script>
+    <link href="@Url.Content("~/Content/reset.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/common.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/index.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/ModuleEdit.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Scripts/layer/skin/layer.css")" rel="stylesheet">
+</head>
+<body>
+    <!-- head -->
+    <div id="header">
+        <div class="header layout">
+            <!-- logo -->
+            <div class="logo">
+                <a href="#"><img src="@Url.Content("~/images/logo.png")" alt=""></a>
+            </div>
+            <!-- logo end -->
+            @Html.Action("HomeHead", "UserBasicInfo")
+            <!-- navi -->
+            <div class="navi">
+                <ul>
+                    <li><a href="@Url.Action("Index","Home")" class="current">首页</a></li>
+                    <li><a id="home_zcjxs"  href="@Url.Action("List", "CrowdFunDingInfo")">众筹进行时</a></li>
+                    <li><a href="#">众筹教室</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                </ul>
+            </div>
+            <!-- navi end -->
+            <!-- search -->
+            <div class="top-search-box">
+                <input type="text" class="top-search" placeholder="请输入关键字">
+                <a href="#" class="top-search-btn"></a>
+            </div>
+            <!-- search end-->
+        </div>
+    </div>
+    <!-- head end -->
+
+    @RenderBody()
+    
+    <!-- 底部 -->
+    <div id="bottom">
+        <div class="bottom-links">
+            <div class="layout">
+                <span>友情链接：</span>
+                <ul>
+                    <li><a href="#">莱特金融集团</a></li>
+                    <li><a href="#">莱特金融超市</a></li>
+                    <li><a href="#">莱特金融旗舰店</a></li>
+                    <li><a href="#">莱特贷款网</a></li>
+                    <li><a href="#">莱特理财网</a></li>
+                    <li><a href="#">莱特财富</a></li>
+                    <li><a href="#">莱特资信</a></li>
+                    <li><a href="#">莱特文化</a></li>
+                    <li><a href="#">莱特网络</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-copyright">
+            <div class="layout ta-c">
+                <a href="#">粤ICP备026535894号-1 </a><a href="#">goodjr.cn</a>  © 2015 东莞莱特金融投资集团股份有限公司 版权所有
+            </div>
+        </div>
+    </div>
+    <!-- 底部 end -->
+    <script type="text/javascript" src="@Url.Content("~/Scripts/counter.js")"></script>
+    @Scripts.Render("~/js/jquery", "~/js/art", "~/js/editor", "~/js/validate")
+
+    <script type="text/javascript" src="@Scripts.Url("~/Scripts/ModuleEdit/ModuleList.js")"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

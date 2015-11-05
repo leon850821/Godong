@@ -1,0 +1,27 @@
+﻿@model IEnumerable<GuDong.Model.GuDong.Banner>
+<!-- banner -->
+<div class="banner">
+    <div class="banner-in">
+        @{int num=0;}
+        @{
+            foreach (var t in Model)
+            {
+                if (num == 0)
+                {
+                    <a href="@(t.LinkUrl)" target="_blank" style="display:block;"><img src="@(t.Image)" alt=""></a>
+                }
+                else
+                {
+                    <a href="@(t.LinkUrl)" target="_blank"><img src="@(t.Image)" alt=""></a>
+                }
+                num += 1;
+            }
+}
+    </div>
+    <div class="banner-ctrler">
+        <span class="current"><i></i></span>
+        <span><i></i></span>
+        <span><i></i></span>
+    </div>
+</div>
+<!-- banner -->

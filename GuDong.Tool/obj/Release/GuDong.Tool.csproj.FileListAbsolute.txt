@@ -1,0 +1,4 @@
+E:\GuDong\GuDong.Tool\bin\Release\GuDong.Tool.dll
+E:\GuDong\GuDong.Tool\bin\Release\GuDong.Tool.pdb
+E:\GuDong\GuDong.Tool\obj\Release\GuDong.Tool.dll
+E:\GuDong\GuDong.Tool\obj\Release\GuDong.Tool.pdb

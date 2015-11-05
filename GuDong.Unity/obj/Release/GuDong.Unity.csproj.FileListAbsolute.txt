@@ -1,0 +1,16 @@
+E:\GuDong\GuDong.Unity\bin\Release\GuDong.Unity.dll
+E:\GuDong\GuDong.Unity\bin\Release\GuDong.Unity.pdb
+E:\GuDong\GuDong.Unity\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+E:\GuDong\GuDong.Unity\bin\Release\Microsoft.Practices.Unity.dll
+E:\GuDong\GuDong.Unity\bin\Release\Unity.Mvc4.dll
+E:\GuDong\GuDong.Unity\bin\Release\System.Web.Http.dll
+E:\GuDong\GuDong.Unity\bin\Release\System.Net.Http.Formatting.dll
+E:\GuDong\GuDong.Unity\bin\Release\Newtonsoft.Json.dll
+E:\GuDong\GuDong.Unity\bin\Release\Microsoft.Practices.Unity.xml
+E:\GuDong\GuDong.Unity\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+E:\GuDong\GuDong.Unity\bin\Release\System.Web.Http.xml
+E:\GuDong\GuDong.Unity\bin\Release\System.Net.Http.Formatting.xml
+E:\GuDong\GuDong.Unity\bin\Release\zh-Hans\System.Web.Http.resources.dll
+E:\GuDong\GuDong.Unity\bin\Release\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\GuDong\GuDong.Unity\obj\Release\GuDong.Unity.dll
+E:\GuDong\GuDong.Unity\obj\Release\GuDong.Unity.pdb

@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "莱特网";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- banner -->
+@Html.Action("HomeHeadBanner", "Banner")
+<!-- banner -->
+<!-- 公告 -->
+<div class="annouces">
+    <div class="layout">
+        @Html.Action("HomeHeadNew", "NewInfo")
+        <div class="data-list fr">
+            <span>已完成<b class="data-1" data-to="@Html.Action("CountCompleteNum", "CrowdFunDingInfo")" data-speed="600"></b>个项目</span>
+            <span>共<b class="data-2" data-to="@Html.Action("CountNum", "UserBasicInfo")" data-speed="600"></b>位莱特参与</span>
+            <span>为莱特们赚取<b class="data-3" data-to="@Html.Action("CountBonusAmount", "CrowdBonusList")" data-speed="600"></b>元</span>
+        </div>
+    </div>
+</div>
+<!-- 公告 end -->
+<!-- 行业 -->
+@Html.Action("InvolveIndustry", "IndustryInfo")
+<!-- 行业 end -->
+<!-- 众筹项目 -->
+@Html.Action("HomeCategoryList", "CrowdFunDingInfo")
+<!-- 众筹项目 end -->
+<!-- 中层广告 -->
+@Html.Action("HomeMidBanner", "Banner")
+<!-- 中层广告 end -->
+<!-- 潜力店 -->
+@Html.Action("HomeList", "DiscountInfo")
+<!-- 潜力店 end  -->
+<!-- 优势展示 -->
+<div class="show layout">
+    <span class="show-item">
+        <img src="" alt="">
+        <p class="show-tit">操作简易</p>
+        <p>莱特金融莱特金融</p>
+        <p>莱特金融莱特金融</p>
+    </span>
+    <span class="show-item">
+        <img src="" alt="">
+        <p class="show-tit">风险保障</p>
+        <p>莱特金融莱特金融</p>
+        <p>莱特金融莱特金融</p>
+    </span>
+    <span class="show-item">
+        <img src="" alt="">
+        <p class="show-tit">平台透明</p>
+        <p>莱特金融莱特金融</p>
+        <p>莱特金融莱特金融</p>
+    </span>
+</div>
+<!-- 优势展示 end -->
+<!-- 底部流程 -->
+<div class="progress">
+    <div class="layout">
+        <img src="@Url.Content("~/images/bottom.jpg")" alt="">
+    </div>
+</div>
+<!-- 底部流程 end -->
+ 

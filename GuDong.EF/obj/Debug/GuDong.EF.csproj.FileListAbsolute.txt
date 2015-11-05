@@ -1,0 +1,45 @@
+E:\GuDong\GuDong.EF\obj\Debug\GuDong.EF.csprojResolveAssemblyReference.cache
+E:\GuDong\GuDong.EF\bin\Debug\GuDong.EF.dll.config
+E:\GuDong\GuDong.EF\bin\Debug\GuDong.EF.dll
+E:\GuDong\GuDong.EF\bin\Debug\GuDong.EF.pdb
+E:\GuDong\GuDong.EF\bin\Debug\EntityFramework.dll
+E:\GuDong\GuDong.EF\bin\Debug\EntityFramework.resources.dll
+E:\GuDong\GuDong.EF\bin\Debug\EntityFramework.SqlServer.dll
+E:\GuDong\GuDong.EF\bin\Debug\GuDong.Enum.dll
+E:\GuDong\GuDong.EF\bin\Debug\GuDong.Model.dll
+E:\GuDong\GuDong.EF\bin\Debug\GuDong.Enum.pdb
+E:\GuDong\GuDong.EF\bin\Debug\GuDong.Model.pdb
+E:\GuDong\GuDong.EF\bin\Debug\EntityFramework.xml
+E:\GuDong\GuDong.EF\bin\Debug\EntityFramework.SqlServer.xml
+E:\GuDong\GuDong.EF\obj\Debug\GuDong.EF.dll
+E:\GuDong\GuDong.EF\obj\Debug\GuDong.EF.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.EF\bin\Debug\GuDong.EF.dll.config
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.EF\bin\Debug\GuDong.EF.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.EF\bin\Debug\GuDong.EF.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.EF\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.EF\bin\Debug\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.EF\bin\Debug\GuDong.Enum.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.EF\bin\Debug\GuDong.Model.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.EF\bin\Debug\GuDong.Enum.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.EF\bin\Debug\GuDong.Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.EF\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.EF\obj\Debug\GuDong.EF.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.EF\obj\Debug\GuDong.EF.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.EF\obj\Debug\GuDong.EF.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.EF\bin\Debug\GuDong.EF.dll.config
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.EF\bin\Debug\GuDong.EF.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.EF\bin\Debug\GuDong.EF.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.EF\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.EF\bin\Debug\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.EF\bin\Debug\GuDong.Enum.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.EF\bin\Debug\GuDong.Model.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.EF\bin\Debug\GuDong.Enum.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.EF\bin\Debug\GuDong.Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.EF\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.EF\obj\Debug\GuDong.EF.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.EF\obj\Debug\GuDong.EF.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.EF\obj\Debug\GuDong.EF.pdb

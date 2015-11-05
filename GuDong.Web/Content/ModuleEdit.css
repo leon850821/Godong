@@ -1,0 +1,399 @@
+﻿.br_ty1 { 
+	height: 6px;
+    border:none;
+    border-top:10px groove skyblue;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    overflow: hidden;
+    display: block;
+    font-size: 0;
+    content: ".";
+    clear: both;
+    height: 0;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+
+/* 内容盒子 Content Box
+--------------------------------------------------------------------------------*/
+.me-content-box {
+    border: 1px solid #ccc;
+    background: #fff;
+}
+/* 标题区域
+----------------------------------------*/
+.me-content-box-header {
+    background: #e5e5e5 url('../images/bg-content-box.gif') top left repeat-x;
+    height: 35px;
+    border-bottom: 1px solid #ccc;
+}
+    .me-content-box-header span {
+        padding: 10px 15px 10px;
+        float: left;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .me-content-box-header label {
+        padding: 15px 0 0 0;
+        float: left;
+    }
+    .me-content-box-header a {
+        padding: 15px 5px 0 5px;
+        float: left;
+    }
+/* 多标签区域
+----------------------------------------*/
+ul.me-content-box-tabs {
+    float: right;
+    padding: 10px 15px 0 0 !important;
+    margin: 0 !important;
+}
+    ul.me-content-box-tabs li {
+        float: left;
+        margin: 0;
+        padding: 0 !important;
+        background-image: none !important;
+    }
+        ul.me-content-box-tabs li a {
+            color: #333;
+            padding: 6.5px 20px;
+            display: block;
+            margin: 1px;
+            border-bottom: 0;
+        }
+            ul.me-content-box-tabs li a:hover {
+                color: #57a000;
+            }
+            ul.me-content-box-tabs li a.current {
+                background: #fff;
+                border: 1px solid #ccc;
+                border-bottom: 0;
+                margin: 0;
+            }
+/* 正文区域
+----------------------------------------*/
+.me-content-box-content {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height:530px;
+}
+.me-content-box-content .tab-content {
+    font-size: 13px;
+    padding: 10px 5px 0 5px;
+}
+ 
+
+
+/* 检索区域 Search area
+----------------------------------------*/
+#table-search {
+}
+    #table-search .search-box {
+        font-size: 14px;
+        margin: 0 auto;
+        padding: 5px 0 10px 0;
+        width: 98%;
+        min-height: 26px;
+        line-height: 26px;
+        clear: both;
+    }
+    #table-search .search-text1 {
+        width: 120px;
+    }
+    #table-search .search-text2 {
+        width: 60px;
+    }
+    #table-search label,
+    #table-search select,
+    #table-search input {
+        float: left;
+        margin-right: 5px;
+        display: inline;
+    }
+    #table-search label {
+        float: left;
+        height: 32px;
+        line-height: 32px;
+        width: 80px;
+        text-align: right;
+        overflow: hidden;
+    }
+    #table-search span {
+        float: left;
+        height: 32px;
+        line-height: 32px;
+        display: inline;
+        overflow: hidden;
+    }
+    #table-search select {
+        margin-top: 3px;
+        _margin-top: 1px;
+    }
+    #table-search input.input-text,
+    #table-search select {
+        padding: 6px;
+        font-size: 13px;
+        background: #fff url('../images/bg-form-field.gif') top left repeat-x;
+        border: 1px solid #d5d5d5;
+        color: #333;
+    }
+    #table-search select {
+        padding: 4px;
+    }
+
+    /* 按钮样式 Button
+--------------------------------------------------------------------------------*/
+.me-button {
+    font-family: \5FAE\8F6F\96C5\9ED1, \65B0\5B8B\4F53, \5B8B\4F53, 'Times New Roman', sans-serif, Tahoma, sans-serif !important;
+    display: inline-block;
+    background: #0796bf url('../images/bg-button-blue.gif') top left repeat-x !important;  
+    border: 1px solid #0796bf !important;
+    padding: 7px 12px 7px 12px !important;
+    color: #fff !important;
+    font-size: 13px !important;
+    cursor: pointer;
+}
+    .me-button:hover {
+        text-decoration: underline;
+    }
+    .me-button:active {
+        padding: 8px 12px 6px 12px !important;
+    }
+.me-button-black {
+    font-family: \5FAE\8F6F\96C5\9ED1, \65B0\5B8B\4F53, \5B8B\4F53, 'Times New Roman', sans-serif, Tahoma, sans-serif !important;
+    display: inline-block;
+    background: #6A6A6A url('../images/bg-button-black.png') top left repeat-x !important;
+    border: 1px solid #6A6A6A !important;
+    padding: 7px 12px 7px 12px !important;
+    color: #fff !important;
+    font-size: 13px !important;
+    cursor: pointer;
+}
+    .me-button-black:hover {
+        text-decoration: underline;
+    }
+    .me-button-black:active {
+        padding: 8px 12px 6px 12px !important;
+    }
+
+
+    /* 表格字段宽度 Table cell width
+----------------------------------------*/
+.per5 {
+    width: 5%;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.per10 {
+    width: 10%;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.per15 {
+    width: 15%;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.per20 {
+    width: 20%;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.per25 {
+    width: 25%;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.per30 {
+    width: 30%;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.per35 {
+    width: 35%;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.per40 {
+    width: 40%;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+#dataShowArea td p {
+    padding: 0 !important;
+}
+ 
+
+#me-main-content div#table-tbody {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#me-main-content table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0 none;
+}
+    #me-main-content table thead th {
+        font-weight: bold;
+        font-size: 15px;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+    }
+        #me-main-content table thead th a {
+            display: block;
+            position: relative;
+        }
+            #me-main-content table thead th a:link,
+            #me-main-content table thead th a:visited,
+            #me-main-content table thead th a:active,
+            #me-main-content table thead th a:hover {
+                color: #333;
+                font-weight: 600;
+                text-decoration: none;
+                padding: 0;
+            }
+            #me-main-content table thead th a:hover {
+                color: #000;
+            }
+        #me-main-content table thead th.asc a,
+        #me-main-content table thead th.desc a {
+            margin-right: .75em;
+        }
+            #me-main-content table thead th.asc a:after,
+            #me-main-content table thead th.desc a:after {
+                display: block;
+                position: absolute;
+                right: 0em;
+                top: 0;
+                font-size: 0.75em;
+            }
+            #me-main-content table thead th.asc a:after {
+                content: '▲';
+            }
+            #me-main-content table thead th.desc a:after {
+                content: '▼';
+            }
+/* 表格正文 Table tbody
+----------------------------------------*/
+#me-main-content tbody {
+    border-bottom: 1px solid #ddd;
+}
+    #me-main-content tbody tr {
+        background: #fff;        
+    }
+        #me-main-content tbody tr.alt-row {
+            background: #E5E5E5;
+        }
+        #me-main-content tbody tr.alt-selected {
+            background: #51B2F6;
+        }
+        #me-main-content tbody tr td a {
+            padding: 0 1px 0 0;
+        }
+
+
+
+/* 表格 Table 表头、行、列
+----------------------------------------*/
+#me-main-content table td,
+#me-main-content table th {
+    padding: 9px;
+    line-height: 1.4em;
+}
+
+
+/* 内容字段 - Field
+----------------------------------------*/
+.field-item {
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 20px 0 10px 0;
+    width: 98%;
+    min-height: 26px;
+    line-height: 26px;
+    clear: both;
+}
+    .field-item ol {
+        text-align: left;
+        float: left;
+    }
+    .field-item label,
+    .field-item input,
+    .field-item select,
+    .field-item textarea {
+        float: left;
+        margin-right: 5px;
+        display: inline;
+    }
+    .field-item label {
+        float: left;
+        height: 32px;
+        line-height: 32px;
+        width: 100px;
+        text-align: right;
+        overflow: hidden;
+    }
+    .field-item span {
+        float: left;
+        height: 32px;
+        line-height: 32px;
+        display: inline;
+        overflow: hidden;
+    }
+    .field-item select {
+        margin-top: 3px;
+        _margin-top: 1px;
+    }
+    .field-item textarea {
+        min-height: 120px;
+    }
+    .field-item p {
+        margin-top: 5px;
+        padding-left: 120px;
+    }
+        .field-item p input {
+            float: none;
+        }
+    .field-item ul {
+        padding: 0 !important;
+        text-align: left;
+        float: left;
+        height: 32px;
+        line-height: 32px;
+    }
+        .field-item ul li {
+            padding: 0 4px !important;
+            float: left;
+            background-image: none !important;
+        }
+.margin-left-1em {
+  margin-left: 1em;
+}
+
+div .field-item input.input-text,
+div .field-item select,
+div .field-item textarea {
+    padding: 6px;
+    font-size: 13px;
+    background: #fff url('../images/bg-form-field.gif') top left repeat-x;
+    border: 1px solid #d5d5d5;
+    color: #333;
+}
+
+div .field-item .small-input {
+  width: 20% !important;
+}
+
+
+.padding-top-3 {
+  padding-top: 3px;
+}

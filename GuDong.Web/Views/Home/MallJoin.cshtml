@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewBag.Title = "MallJoin";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<script type="text/javascript" src="@Url.Content("~/Scripts/Home/MallJoin.js")"></script>
+ <!-- login -->
+<div class="login-main">
+    <div class="layout clearfix">
+        <!-- 广告 -->
+        <div class="reg-ad">
+            <a href="#"><img src="../images/reg-ad.jpg" alt=""></a>
+        </div>
+        <!-- 广告 end -->
+        <!-- 登录框 -->
+        @using (Html.BeginForm("AddApply", "MerchantSettledApply"))
+        {
+        <div class="login-panel">
+            <div class="panel-tit">
+                商家入驻<b>咕咚网</b>
+                <span class="fr">
+                    <a href="@Url.Action("Register")" class="login-reg-link">普通用户注册</a>
+                </span>
+            </div>
+            <ul class="input-items">
+                <!-- 用户名框 -->
+                <li>
+                    <i class="input-icons i-i-phone"></i>
+                    <input type="text" name="TelNo" class="input-box user-phone hasicon" placeholder="请输入手机号码">
+                    <p class="input-tips warn-text"></p>
+                </li>
+                <!-- 用户名框 end -->
+                <!-- 手机验证码 -->
+                <li>
+                    <input type="text" name="TelCode" class="input-box user-phone-code" placeholder="请输入手机验证码">
+                    <span class="abs-vcode">
+                        <a href="#">发送验证码</a>
+                    </span>
+                    <p class="input-tips warn-text"></p>
+                </li>
+                <!-- 手机验证码 end -->
+                <!-- 姓名框 -->
+                <li>
+                    <input type="text" name="RealName" class="input-box user-real-name" placeholder="请输入您的姓名">
+                    <p class="input-tips warn-text"></p>
+                </li>
+                <!-- 姓名框 end -->
+                <!-- 性别 -->
+                <li><span class="sex-box">请选择您的性别：</span><span class="sex-box"><input type="radio" checked name="Sex" value="男" id="sex-male"><label for="sex-male">男</label></span><span class="sex-box"><input type="radio" name="Sex" value="女" id="sex-female"><label for="sex-female">女</label></span></li>
+                <!-- 性别 end -->
+                <!-- 验证码框 -->
+                <li>
+                    <input type="text" name="yzCode" value="@TempData["yzCode"]" class="input-box user-vcode" placeholder="请输入验证码">
+                    <img src="@Url.Action("ValidateCode", "Home", new { temp=DateTime.Now.Ticks})" alt="" class="abs-vcode"
+                         onclick="$(this).attr('src', '@Url.Action("ValidateCode", "Home")?r=' + Math.random()); $('.user-vcode').val('');">
+                    <p class="input-tips warn-text"></p>
+                </li>
+                <!-- 验证码框 end -->
+            </ul>
+            <div class="msg-box">@TempData["msg"]</div>
+            <span class="input-submit">
+                <a href="#" class="input-submit-btn mall-apply-btn">提交申请</a>
+            </span>
+        </div>
+        }
+        <!-- 登录框 end -->
+    </div>
+</div>
+<!-- login end -->

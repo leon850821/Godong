@@ -1,0 +1,54 @@
+﻿@using GuDong.Model.GuDong;
+
+ @model  GuDong.Model.GuDong.MainModule
+
+@{
+
+    ViewBag.Title = "MainModuleAdd";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<div class="me-content-box ">
+    <div class="me-content-box-header">
+        <span>主模块信息数据列表添加</span>
+
+        <div class="clearfix"></div>
+    </div>
+    <div class="me-content-box-content">
+
+        @using (Html.BeginForm("MainModuleListAdd", "ModuleEdit"))
+        {
+
+            <div class="field-item">
+                <label>模块名称：</label>
+                @Html.TextBoxFor(model => model.ModuleName, new { @class = "input-text small-input", maxlength = "50" })
+                <span class="color-red padding-top-3">*</span>
+                <span id="icoName" class="margin-left-1em"></span>
+            </div>
+
+            <div class="field-item">
+                <label>控制器：</label>
+                @Html.TextBoxFor(model => model.Controller, new { @class = "input-text small-input", maxlength = "50" })
+                <span class="color-red padding-top-3">*</span>
+                <span id="icoName" class="margin-left-1em"></span>
+            </div>
+ 
+
+            <div class="field-item">
+                <label>编辑控制器：</label>
+                @Html.TextBoxFor(model => model.EditController, new { @class = "input-text small-input", maxlength = "50" })
+                <span class="color-red padding-top-3">*</span>
+                <span id="icoName" class="margin-left-1em"></span>
+            </div>
+
+
+            <div class="field-item">
+                <label> &nbsp;</label><input type="submit" value="提交" class="btn-sub-link" style="width: 150px;  " />
+            </div>
+
+        }
+
+
+    </div>
+</div>
+

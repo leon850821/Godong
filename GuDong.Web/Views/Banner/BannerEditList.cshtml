@@ -1,0 +1,85 @@
+﻿@using Webdiyer.WebControls.Mvc;
+@model  PagedList<GuDong.Model.GuDong.Banner>
+
+    <link href="@Url.Content("~/Content/list.css")" rel="stylesheet">
+
+    @{
+        ViewBag.Title = "广告信息列表";
+        Layout = "~/Views/Shared/_Layout2.cshtml";
+    }
+    @*<hr class="br_ty1" />*@
+
+    <div class="me-content-box ">
+        <div class="me-content-box-header">
+            <span>广告信息数据列表</span>
+            <div class="clearfix"></div>
+        </div>
+        <div class="me-content-box-content">
+            <div id="table-search">
+                <div class="search-box">
+                    <label>模块名称：</label>
+                    <input class="input-text search-text1" type="text" id="txtsearch" value= '@ViewBag.search' />
+                    <input class="me-button" type="button" value="开始检索" onclick="SearchClick('/Banner/BannerEditList');" />
+                    <input class="me-button" type="button" value="清空检索" onclick="onSearchClear();" />
+                    <span class="color-red f14 margin-left-10" id="searchTips"></span>
+                    <input class="me-button" type="button" value="新增" onclick="GotoHref('/Banner/BannerEditListAdd')" />
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+
+            <div id="me-main-content">
+                <table id="table-thead">
+                    <thead>
+                        <tr>
+                            <th class="per15">广告栏名称</th>
+                            <th class="per10">类别</th>
+                            <th class="per15">连接地址</th>
+                            <th class="per20">图片地址</th>
+                            <th class="per10">顺序</th>
+                            <th>&nbsp;</th>
+                        </tr>
+                    </thead>
+                </table>
+
+                <div id="table-tbody">
+                    <table>
+                        <tbody id="dataShowArea">
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="per15">
+                                        <p class="color-orangered"><em>@item.Title</em></p>
+                                    </td>
+                                    <td class="per10">@item.Type</td>
+                                    <td class="per15"> @item.LinkUrl</td>
+                                    <td class="per20">@item.Image</td>
+                                    <td class="per10">@item.Sort</td>
+                                    <td class="per10">
+                                        <a class="color-green" href="@Url.Action("BannerEditListAdd", "Banner", new { id = @item.Id })"><img src="~/Images/icons/editor.png" /> 编辑单笔</a>
+                                    </td>
+                                    <td class="per10">
+                                        <a class="color-red" href="javascript:void(0);" onclick="dataDelete('@item.Id','Banner','DeleteBannerList');"><img src="~/Images/icons/delete.png" /> 删除</a>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                @Html.Pager(Model, new PagerOptions
+     {
+         PageIndexParameterName = "id",
+         FirstPageText = "首页",
+         PrevPageText = "上一页",
+         NextPageText = "下一页",
+         LastPageText = "末页",
+         CssClass = "list-pager",
+     })
+
+                @Html.Pager((int)ViewBag.Count, 10, (int)ViewBag.Page, new PagerOptions { PageIndexParameterName = "Page", CssClass = "list-pager" })
+
+            </div>
+        </div>
+    </div>
+

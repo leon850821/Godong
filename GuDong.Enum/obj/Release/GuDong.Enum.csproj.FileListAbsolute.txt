@@ -1,0 +1,4 @@
+E:\GuDong\GuDong.Enum\bin\Release\GuDong.Enum.dll
+E:\GuDong\GuDong.Enum\bin\Release\GuDong.Enum.pdb
+E:\GuDong\GuDong.Enum\obj\Release\GuDong.Enum.dll
+E:\GuDong\GuDong.Enum\obj\Release\GuDong.Enum.pdb

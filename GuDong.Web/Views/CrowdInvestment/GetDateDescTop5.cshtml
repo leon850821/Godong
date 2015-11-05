@@ -1,0 +1,23 @@
+﻿@using GuDong.Model.GoodJr
+@model IEnumerable<GuDong.Model.GuDong.CrowdInvestment>
+<p class="right-item-tit">
+    大家都在抢购
+</p>
+<!-- 购买用户列表 -->
+<div class="buyer-box"> 
+    @{
+    List<B_UserBasicInfo> userdata = (List<B_UserBasicInfo>)ViewBag.userdata;
+    foreach (var t in Model)
+    {
+        <!-- 购买用户 -->
+        <dl>
+            <dt><img src="@(userdata.FirstOrDefault(x=>x.Id==t.User_Id).HeadImage)" alt=""></dt>
+            <dd>
+                <p class="buyer-tit nowrap">@(t.CrowdFunDingInfo.Title)</p>
+                <p class="nowrap">@(userdata.FirstOrDefault(x => x.Id == t.User_Id).TelNo)投资了该项目</p>
+            </dd>
+        </dl>
+    <!-- 购买用户 end -->
+    }}
+</div>
+<!-- 购买用户列表 end -->

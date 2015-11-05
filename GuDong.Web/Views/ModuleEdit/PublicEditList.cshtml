@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "mainmodule";
+    string EditAction = @ViewData["EditAction"].ToString();
+    string EditController = @ViewData["EditController"].ToString();
+    string EditActionAdd = @ViewData["EditAction"].ToString() + "Add";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<div class="me-content-box ">
+    <div class="me-content-box-header">
+        <span> @(ViewBag.ModuleName)信息数据列表</span>
+        <div class="clearfix"></div>
+    </div>
+    <div class="me-content-box-content">
+        <div id="table-search">
+            <div class="search-box">
+                <label>@(ViewBag.ModuleName)名称：</label>
+                <input class="input-text search-text1" type="text" id="txtCode" />
+                <input class="me-button" type="button" value="开始检索" onclick="onSearchGo();" />
+                <input class="me-button" type="button" value="清空检索" onclick="onSearchClear();" />
+                <span class="color-red f14 margin-left-10" id="searchTips"></span>
+                <input class="me-button" type="button" value="新增" onclick="GotoHref('@Url.Action(EditActionAdd, EditController)')" />
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        @Html.Action(EditAction, EditController)
+
+    </div>
+
+</div>
+
+
+
+

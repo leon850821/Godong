@@ -1,0 +1,115 @@
+﻿@using GuDong.Enum.CrowdFunDingInfo;
+@model IEnumerable<GuDong.Model.GuDong.CrowdFunDingInfo>
+
+
+<!-- 众筹项目 -->
+<div class="crowdfunding layout">
+    <div class="c-tit">
+        <span class="tit-text">
+            <p class="bigger-tit">众筹项目</p>
+            <p>好玩，就要抢先尝</p>
+        </span>
+        <div class="tit-tabs">
+            <ul>
+                <li class="current"><span>正在众筹</span></li>
+                <li><span>预热项目</span></li>
+                <li><span>成功项目</span></li>
+            </ul>
+        </div>
+        <a href="@Url.Action("List", "CrowdFunDingInfo")" class="all-stores-btn">全部项目 ></a>
+    </div>
+    <div class="c-lists">
+        <!-- 项目列表 -->
+        <ul class="list-type-1" style="display:block;">
+          @{foreach (var t in Model.Where(x => x.CrowdState == CrowdState.Crowding))
+          {
+            <li>
+                <a href="#" class="item-img">
+                    <img src="@(string.IsNullOrEmpty(t.LogoUrl)? "../images/CrowdFunDefaultImg.jpg" : t.LogoUrl)" alt="">
+                    <span class="item-tag tag-2">@(GuDong.Tool.EnumHelper.GetDescriptionFromEnumValue(t.CrowdState))</span>
+                </a>
+                <p class="item-tit">
+                    <a href="#">@t.Title</a>
+                </p>
+                <span class="progress-bar">
+                    <i style="width:@(((decimal)t.InvestmentShare / (decimal)t.CrowdShare * 100).ToString("0"))%;"></i>
+                </span>
+                <span class="item-data">
+                    <b>
+                        <p class="i-data">@(((decimal)t.InvestmentShare / (decimal)t.CrowdShare * 100).ToString("0"))%</p>
+                        <p>项目达成率</p>
+                    </b>
+                    <b>
+                        <p class="i-data">@((t.InvestmentShare * t.LowerUnit).ToString("0,00"))</p>
+                        <p>已筹金额</p>
+                    </b>
+                    <b>
+                        <p class="i-data">@(t.DividendsDay)天</p>
+                        <p>分红间隔天数</p>
+                    </b>
+                </span>
+            </li>
+          }}
+        </ul>
+        <!-- 项目列表 end -->
+        <!-- 项目列表 -->
+        <ul class="list-type-2">
+           @{foreach (var t in Model.Where(x => x.CrowdState == CrowdState.Preheat))
+           {
+            <li>
+                <a href="#" class="item-img">
+                    <img src="@(string.IsNullOrEmpty(t.LogoUrl)? "../images/CrowdFunDefaultImg.jpg" : t.LogoUrl)" alt="">
+                    <span class="item-tag tag-2">@(GuDong.Tool.EnumHelper.GetDescriptionFromEnumValue(t.CrowdState))</span>
+                </a>
+                <p class="item-tit">
+                    <a href="#">@t.Title</a>
+                </p>
+                <span class="progress-bar">
+                    <i style="width:@(((decimal)t.InvestmentShare / (decimal)t.CrowdShare * 100).ToString("0"))%;"></i>
+                </span>
+                <span class="item-data">
+                    <b>
+                        <p class="i-data">￥@(t.CrowdAmount.ToString("0,00"))</p>
+                        <p>目标金额</p>
+                    </b>
+                    <b>
+                        <p class="i-data">@(t.CrowdStartDate.ToString("yyyy-MM-dd"))</p>
+                        <p>上线日期</p>
+                    </b>
+                </span>
+            </li>
+           }}
+        </ul>
+        <!-- 项目列表 end -->
+        <!-- 项目列表 -->
+        <ul class="list-type-3">
+           @{foreach (var t in Model.Where(x => x.CrowdState == CrowdState.CrowdSucces))
+           {
+            <li>
+                <a href="#" class="item-img">
+                    <img src="@(string.IsNullOrEmpty(t.LogoUrl)? "../images/CrowdFunDefaultImg.jpg" : t.LogoUrl)" alt="">
+                    <span class="item-tag tag-2">@(GuDong.Tool.EnumHelper.GetDescriptionFromEnumValue(t.CrowdState))</span>
+                </a>
+                <p class="item-tit">
+                    <a href="#">@t.Title</a>
+                </p>
+                <span class="progress-bar">
+                    <i style="width:@(((decimal)t.InvestmentShare / (decimal)t.CrowdShare * 100).ToString("0"))%;"></i>
+                </span>
+                <span class="item-data">
+                    <b>
+                        <p class="i-data">￥@(t.CrowdAmount.ToString("0,00"))</p>
+                        <p>已筹金额</p>
+                    </b>
+                    <b>
+                        <p class="i-data">@(t.DividendsDay)天</p>
+                        <p>分红间隔天数</p>
+                    </b>
+                </span>
+            </li>
+           }}
+        </ul>
+        <!-- 项目列表 end -->
+    </div>
+</div>
+<!-- 众筹项目 end -->

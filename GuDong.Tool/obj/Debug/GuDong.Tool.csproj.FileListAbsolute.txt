@@ -1,0 +1,14 @@
+E:\GuDong\GuDong.Tool\bin\Debug\GuDong.Tool.dll
+E:\GuDong\GuDong.Tool\bin\Debug\GuDong.Tool.pdb
+E:\GuDong\GuDong.Tool\obj\Debug\GuDong.Tool.dll
+E:\GuDong\GuDong.Tool\obj\Debug\GuDong.Tool.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Tool\bin\Debug\GuDong.Tool.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Tool\bin\Debug\GuDong.Tool.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Tool\obj\Debug\GuDong.Tool.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Tool\obj\Debug\GuDong.Tool.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong\GuDong.Tool\obj\Debug\GuDong.Tool.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Tool\bin\Debug\GuDong.Tool.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Tool\bin\Debug\GuDong.Tool.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Tool\obj\Debug\GuDong.Tool.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Tool\obj\Debug\GuDong.Tool.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\GuDong1\GuDong.Tool\obj\Debug\GuDong.Tool.pdb

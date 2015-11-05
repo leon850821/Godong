@@ -1,0 +1,83 @@
+﻿@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<script type="text/javascript" src="@Url.Content("~/Scripts/Home/Register.js")"></script>
+<!-- login -->
+<div class="login-main">
+    <div class="layout clearfix">
+        <!-- 广告 -->
+        <div class="reg-ad">
+            <a href="#"><img src="../images/reg-ad.jpg" alt=""></a>
+        </div>
+        <!-- 广告 end -->
+        <!-- 登录框 -->
+        @using (Html.BeginForm("Register", "UserBasicInfo"))
+        {
+            <input type="hidden" name="ExtenderKey" value="@(Request.QueryString["ExtenderKey"] == null ? "" : Request.QueryString["ExtenderKey"].ToString())" />
+            <div class="login-panel">
+                <div class="panel-tit">
+                    加入<b>咕咚网</b>
+                    <span class="fr">
+                        <a href="@Url.Action("MallJoin","Home")" class="login-reg-link">商家入驻申请</a>
+                    </span>
+                </div>
+                <ul class="input-items">
+                    <!-- 用户名框 -->
+                    <li>
+                        <i class="input-icons i-i-phone"></i>
+                        <input type="text" name="TelNo" value="@TempData["TelNo"]" class="input-box user-phone hasicon" placeholder="请输入手机号码">
+                        <p class="input-tips warn-text"></p>
+                    </li>
+                    <!-- 用户名框 end -->
+                    <!-- 手机验证码 -->
+                    <li>
+                        <input type="text" name="TelCode" value="@TempData["TelCode"]" class="input-box user-phone-code" placeholder="请输入手机验证码">
+                        <span class="abs-vcode">
+                            <a href="#">发送验证码</a>
+                        </span>
+                        <p class="input-tips warn-text"></p>
+                    </li>
+                    <!-- 手机验证码 end -->
+                    <!-- 密码框 -->
+                    <li>
+                        <i class="input-icons i-i-password"></i>
+                        <input type="password" name="Pwd" value="@TempData["Pwd"]" class="input-box user-password hasicon" placeholder="请输入密码">
+                        <p class="input-tips warn-text"></p>
+                    </li>
+                    <!-- 密码框 end -->
+                    <!-- 确认密码框 -->
+                    <li>
+                        <i class="input-icons i-i-password"></i>
+                        <input type="password" value="@TempData["Pwd"]" class="input-box user-cfm-password hasicon" placeholder="请再输入一次密码">
+                        <p class="input-tips warn-text"></p>
+                    </li>
+                    <!-- 确认密码框 end -->
+                    <!-- 验证码框 -->
+                    <li>
+                        <input type="text" name="yzCode" value="@TempData["yzCode"]" class="input-box user-vcode" placeholder="请输入验证码">
+                        <img src="@Url.Action("ValidateCode", "Home", new { temp=DateTime.Now.Ticks})" alt="" class="abs-vcode"
+                             onclick="$(this).attr('src', '@Url.Action("ValidateCode", "Home")?r=' + Math.random()); $('.user-vcode').val('');">
+                        <p class="input-tips warn-text"></p>
+                    </li>
+                    <!-- 验证码框 end -->
+                    <!-- 注册协议 -->
+                    <li>
+                        <input type="checkbox" checked class="agreement-check" id="agreement-note" name="agreement-note">
+                        <span class="agreement-note"><label for="agreement-note">我已阅读并同意<a href="http://www.goodjr.cn/document/fwxy.html" target="_blank">《莱特网络服务协议》</a></label></span>
+                        <p class="input-tips warn-text"></p>
+                    </li>
+                    <!-- 注册协议 end -->
+                </ul>
+                <div class="msg-box">@TempData["msg"]</div>
+                <span class="input-submit">
+                    <a href="#" class="input-submit-btn register-btn">立即注册</a>
+                    <p class="clearfix"><a href="#" class="fr btn-sub-link">已有帐号？请<b>登录</b></a></p>
+                </span>
+            </div>
+            <!-- 登录框 end -->
+        }
+    </div>
+</div>
+<!-- login end -->
+

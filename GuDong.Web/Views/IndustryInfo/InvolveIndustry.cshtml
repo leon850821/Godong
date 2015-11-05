@@ -1,0 +1,16 @@
+﻿@model IEnumerable<GuDong.Model.GuDong.IndustryInfo>
+<!-- 行业 -->
+<div class="types">
+    <div class="layout">
+        <span class="types-tit">
+            众筹涉及行业
+        </span>
+        <ul>
+           @{foreach (var t in Model)
+           {
+            <li><i><img src="@(t.IndustryIco)" alt=""></i><span>@(t.IndustryName)</span></li>
+           }}       
+        </ul>
+    </div>
+</div>
+<!-- 行业 end -->

@@ -1,0 +1,15 @@
+E:\GuDong\GuDong.EF\bin\Release\GuDong.EF.dll.config
+E:\GuDong\GuDong.EF\bin\Release\GuDong.EF.dll
+E:\GuDong\GuDong.EF\bin\Release\GuDong.EF.pdb
+E:\GuDong\GuDong.EF\bin\Release\EntityFramework.dll
+E:\GuDong\GuDong.EF\bin\Release\EntityFramework.resources.dll
+E:\GuDong\GuDong.EF\bin\Release\EntityFramework.SqlServer.dll
+E:\GuDong\GuDong.EF\bin\Release\GuDong.Enum.dll
+E:\GuDong\GuDong.EF\bin\Release\GuDong.Model.dll
+E:\GuDong\GuDong.EF\bin\Release\GuDong.Enum.pdb
+E:\GuDong\GuDong.EF\bin\Release\GuDong.Model.pdb
+E:\GuDong\GuDong.EF\bin\Release\EntityFramework.xml
+E:\GuDong\GuDong.EF\bin\Release\EntityFramework.SqlServer.xml
+E:\GuDong\GuDong.EF\obj\Release\GuDong.EF.csprojResolveAssemblyReference.cache
+E:\GuDong\GuDong.EF\obj\Release\GuDong.EF.dll
+E:\GuDong\GuDong.EF\obj\Release\GuDong.EF.pdb

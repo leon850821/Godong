@@ -1,0 +1,22 @@
+﻿@model GuDong.Model.GoodJr.B_UserBasicInfo
+<div class="top-mininavi">
+    <ul>
+        <li><a href="@Url.Action("Index","Home")">莱特商城</a></li>
+        @if (Model == null)
+        {
+            <li><a href="@Url.Action("Login","Home")">立即登录</a></li>
+            <li><a href="@Url.Action("Register", "Home")">免费注册</a></li>           
+        }
+        else
+        {
+            <li><a href="#">@Model.UserName</a></li>
+            <li><a href="@Url.Action("ExitLogin", "UserBasicInfo")">退出登录</a></li>
+            if (@Model.UserType == (GuDong.Enum.User.UserType.Staff))
+            { 
+             <li><a href="@Url.Action("ModuleList", "ModuleEdit")">编辑界面</a></li>  
+            }
+            
+        }
+        <li>@Html.ActionLink("关于莱特", "About", "Home")</li>
+    </ul>
+</div>
